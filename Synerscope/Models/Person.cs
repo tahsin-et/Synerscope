@@ -11,6 +11,6 @@ namespace Synerscope.Models
         public string LastName { get; set; }
 
         //Introduction the relations to EF
-        public virtual ICollection<Hobby> Synerscope { get; set; }
+        public virtual ICollection<Hobby> Hobbies { get; set; }
     }
 }
